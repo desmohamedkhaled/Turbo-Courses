@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo Courses - Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">Turbo Courses</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="courses.html" class="nav-link active">Courses</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Discover Your Next Skill</h1>
+                    <p class="hero-subtitle">Master new technologies and advance your career with our expert-led courses</p>
+                    
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search courses, instructors, or topics..." class="search-input">
+                            <button class="search-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label>Category</label>
+                        <select class="filter-dropdown">
+                            <option>All Categories</option>
+                            <option>Programming</option>
+                            <option>Design</option>
+                            <option>Marketing</option>
+                            <option>Photography</option>
+                            <option>Graphic Design</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Level</label>
+                        <select class="filter-dropdown">
+                            <option>All Levels</option>
+                            <option>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Advanced</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Price Range</label>
+                        <select class="filter-dropdown">
+                            <option>All Prices</option>
+                            <option>Under 2000 EGP</option>
+                            <option>2000-2500 EGP</option>
+                            <option>Above 2500 EGP</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Sort By</label>
+                        <select class="filter-dropdown">
+                            <option>Most Popular</option>
+                            <option>Newest</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="courses-section">
+            <div class="container">
+                <div class="courses-header">
+                    <h2>Featured Courses</h2>
+                    <p>Hand-picked courses from industry experts</p>
+                </div>
+                
+                <div class="courses-grid">
+                    <!-- Web Development Course -->
+                    <div class="course-card featured">
+                        <div class="course-image">
+                            <img src="web-development-coding-programming-internet-technology-business-concept_628331-833.jpg" alt="Web Development Course" class="course-img">
+                            <div class="course-badge">Featured</div>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Programming</div>
+                            <h3 class="course-title">Web Development Fundamentals</h3>
+                            <p class="course-description">Learn HTML, CSS, and JavaScript from scratch. Build your first website and understand the basics of modern web development.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.8 (1,234 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">10 sessions</span>
+                                <span class="level">Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">3000 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20Web%20Development%20Fundamentals%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UI/UX Design Course -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="gradient-ui-ux-landing-page-template_23-2149050185.jpg" alt="UI/UX Course" class="course-img">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Design</div>
+                            <h3 class="course-title">UI/UX Design</h3>
+                            <p class="course-description">Create beautiful and user-friendly interfaces. Learn design principles, prototyping, and user research methods.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-text">4.7 (642 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">10 sessions</span>
+                                <span class="level">Intermediate</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">2500 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20UI%2FUX%20Design%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- React Development Course -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=200&fit=crop" alt="React Development Course" class="course-img">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Programming</div>
+                            <h3 class="course-title">React Development</h3>
+                            <p class="course-description">Build modern web applications with React. Learn components, hooks, state management, and routing.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.9 (892 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">12 sessions</span>
+                                <span class="level">Intermediate</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">2200 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20React%20Development%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Python Data Analysis Course -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop" alt="Python Data Analysis Course" class="course-img">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Programming</div>
+                            <h3 class="course-title">Python for Data Analysis</h3>
+                            <p class="course-description">Master Python for data analysis with pandas, numpy, and matplotlib. Learn to extract insights from data.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-text">4.7 (654 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">8 sessions</span>
+                                <span class="level">Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">1800 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20Python%20for%20Data%20Analysis%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Photography Course -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="DALL_E_2024-11-04_13.52.35_-_A_visionary_image_illustrating_the_future_of_digital_photography_featuring_cutting-edge_technology_such_as_AI-powered_cameras_360-degree_virtual_rea_480x480.webp" alt="Digital Photography Course" class="course-img">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Photography</div>
+                            <h3 class="course-title">Digital Photography Basics</h3>
+                            <p class="course-description">Learn camera settings, composition, lighting, and post-processing. Perfect for beginners starting their photography journey.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.8 (1,156 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">6 sessions</span>
+                                <span class="level">Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">1500 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20Digital%20Photography%20Basics%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portrait Photography Course -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&h=200&fit=crop" alt="Portrait Photography Course" class="course-img">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Photography</div>
+                            <h3 class="course-title">Portrait Photography</h3>
+                            <p class="course-description">Master portrait photography techniques, lighting setups, and posing. Create stunning professional portraits.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.9 (743 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">8 sessions</span>
+                                <span class="level">Intermediate</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">2000 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20Portrait%20Photography%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Marketing Course -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop" alt="Digital Marketing Course" class="course-img">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Marketing</div>
+                            <h3 class="course-title">Digital Marketing Fundamentals</h3>
+                            <p class="course-description">Learn SEO, social media marketing, email campaigns, and Google Ads. Build your digital marketing skills from scratch.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.8 (1,089 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">12 sessions</span>
+                                <span class="level">Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">1900 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20Digital%20Marketing%20Fundamentals%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Adobe Photoshop Course -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="gradient-ui-ux-landing-page-template_23-2149050185.jpg" alt="Adobe Photoshop Course" class="course-img">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-category">Graphic Design</div>
+                            <h3 class="course-title">Adobe Photoshop Mastery</h3>
+                            <p class="course-description">Master Photoshop from basics to advanced techniques. Learn photo editing, digital art, and professional design workflows.</p>
+                            <div class="course-instructor">
+                                <div class="instructor-info">
+                                    <div class="instructor-avatar">MK</div>
+                                    <span>By Mohamed Khaled</span>
+                                </div>
+                            </div>
+                            <div class="course-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.8 (1,234 reviews)</span>
+                            </div>
+                            <div class="course-meta">
+                                <span class="duration">14 sessions</span>
+                                <span class="level">Beginner</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">2500 EGP</div>
+                                <a href="https://wa.me/201555379961?text=Hi!%20I%20want%20to%20enroll%20in%20the%20Adobe%20Photoshop%20Mastery%20course." class="enroll-btn" target="_blank">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Turbo Courses. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
